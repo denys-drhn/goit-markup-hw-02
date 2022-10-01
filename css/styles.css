@@ -29,7 +29,6 @@ body{
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	line-height: 1.7;
 	letter-spacing: 0.03em;
 }
 
@@ -55,7 +54,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1.2;
+	line-height: 1.19;
 	text-decoration: none;
 	
 }
@@ -76,7 +75,7 @@ body{
 .header-list {
 font-weight: 500;
 font-size: 14px;
-line-height: 1.1;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 	
@@ -84,6 +83,7 @@ letter-spacing: 0.02em;
 	color: var(--secondary-text-color);
 	font-weight: 500;
 	letter-spacing: 0.02em;
+	line-height: 1.14;
 }
 
 .current{
@@ -99,8 +99,9 @@ letter-spacing: 0.02em;
 	color: var(--main-white-color);
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.4;
+	line-height: 1.36;
 	letter-spacing: 0.06em;
+	text-transform: uppercase;
 }
 .headline-button{
 	color: var(--main-white-color);
@@ -108,8 +109,7 @@ letter-spacing: 0.02em;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.8;
-
+	line-height: 1.87;
 	font-style: normal;
 	cursor: pointer;
 	letter-spacing: 0.06em;
@@ -127,6 +127,8 @@ letter-spacing: 0.02em;
 .features-title{
 	font-weight: 700;
 	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
 }
 
 .features-text{
@@ -138,33 +140,24 @@ letter-spacing: 0.02em;
 .title{
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.2;
-}
-
-.features-title{
-	font-weight: 700;
-	line-height: 1.1;
-	text-transform: uppercase;
-}
-
-.features-text{
-	color: var(--secondary-text-color);
+	line-height: 1.16;
 }
 
 /* Our team */
 .team-section{
 	background-color:var(--team-background-color);
 }
+
 .team-name{
 font-weight: 500;
 font-size: 16px;
-line-height: 1.2;
+line-height: 1.19;
 }
 
 .team-position{
 	color: var(--secondary-text-color);
 	font-size: 16px;
-	line-height: 1.2;
+	line-height: 1.19;
 }
 
 .team-card{
@@ -184,9 +177,12 @@ line-height: 1.2;
 .logo-footer:focus{
 	color: var(--accent-color);
 }
+
 .address {
 	font-style: normal;
+	line-height: 1.71;
 }
+
 .address-footer {
 	color: var(--main-white-color);
 }
@@ -205,7 +201,7 @@ line-height: 1.2;
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.6;
+	line-height: 1.62;
 	font-style: normal;
 	cursor: pointer;
 }
@@ -226,7 +222,7 @@ line-height: 1.2;
 .portfolio-work p{
 	color: var(--secondary-text-color);
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.88;
 }
 
 
